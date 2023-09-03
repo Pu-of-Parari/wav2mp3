@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wav2mp3"
+version = "0.1.0"
+description = ""
+authors = ["pu-of-parari"]
+readme = "README.md"
+packages = [{include = "apps"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7"
+streamlit = "^1.26.0"
+pydub = "^0.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
