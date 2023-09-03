@@ -1,4 +1,4 @@
-# wav2mp3 ツール
+# wav2mp3 変換ツール
 
 wav 形式の音声ファイルを mp3 に変換するツール
 
@@ -9,14 +9,14 @@ wav 形式の音声ファイルを mp3 に変換するツール
 環境設定方法
 
 - 前提:
-  - poetry がインストールされていること
+  - [poetry](https://python-poetry.org/)がインストールされていること
 - 環境準備:
   - 本リポジトリを git clone する
     ```
       $ git clone
       $ cd wav2mp3
     ```
-  - ffmpeg のインストール
+  - [ffmpeg](https://ffmpeg.org/)のインストール
     ```
       $ brew install ffmpeg
     ```
