@@ -13,7 +13,7 @@ wav 形式の音声ファイルを mp3 に変換するツール
 - 環境準備:
   - 本リポジトリを git clone する
     ```
-      $ git clone
+      $ git clone https://github.com/Pu-of-Parari/wav2mp3.git
       $ cd wav2mp3
     ```
   - [ffmpeg](https://ffmpeg.org/)のインストール
